@@ -405,9 +405,6 @@ export default function Home() {
             </button>
           )}
         </div>
-        <div>
-          <img className={styles.image} src="./0.svg" />
-        </div>
       </div>
 
       <footer className={styles.footer}>
