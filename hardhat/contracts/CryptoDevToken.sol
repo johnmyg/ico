@@ -15,7 +15,7 @@ contract CryptoDevToken is ERC20, Ownable{
     // Owning 1 full token is equivalent to owning (10^18) tokens when you account for the decimal places
     uint256 public constant tokensPerNFT = 10*10**18;
     // the max total supply is 1000 for Crypto Dev Tokens
-    uint256 public constant maxTotalSupply = 100000 * 10**18;
+    uint256 public constant maxTotalSupply = 10000 * 10**18;
     // CryptoDevsNFT contract instance;
     ICryptoDevs CryptoDevsNFT;
     // Mapping to keep track of which tokenIds havebeen claimed
